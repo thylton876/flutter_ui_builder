@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_ui_builder",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_ui_builder (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_ui_builder (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "data_binding_test",
+            "type": "dart",
+            "program": "test/data_binding_test.dart",
+            "windows": {
+                "env": {
+                    "PATH": "${env:Path};${workspaceFolder}/quickjs"
+                }
+            },
+            "request": "launch"
+        }
+    ]
+}
